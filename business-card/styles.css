@@ -1,0 +1,47 @@
+body {
+  margin: 20px;
+  width: 400px;
+  margin: 50px auto;
+}
+.avatar {
+  width: 150px;
+  border-radius: 10px;
+  animation: shadowmove 5s 1s;
+}
+@keyframes shadowmove {
+  0% {box-shadow: -10px -10px;}
+  50% {box-shadow: 10px 10px;}
+  100% {box-shadow: none;}
+}
+.card {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 4px solid #a3b18a;
+  border-right: 4px solid #a3b18a;
+  border-left:4px solid #588157;
+  border-top:4px solid #588157;
+  box-shadow: 5px 8px 10px 8px #283618 ;
+  border-radius: 20px;
+  background: #dad7cd;
+  color: #344e41;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px #a3b18a; 
+}
+h3:hover {
+  text-align: left;
+}
+p:hover {
+  text-align: right;
+}
+h4:hover {
+  bottom: 10px;
+}
+h3, h4, p {
+  animation: text-appear 5s 1s;
+}
+@keyframes text-appear {
+  from {color: #dad7cd}
+  to {color: #344e41}
+}
