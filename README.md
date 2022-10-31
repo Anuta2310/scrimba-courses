@@ -1,5 +1,5 @@
-<h1> scrimba-courses </h1>
-<p> Projects created while studying on Scrimba </p>
+# scrimba-courses 
+Projects created while studying on Scrimba
 
 ## HTML & CSS Course
 ### Torshov Homepage
