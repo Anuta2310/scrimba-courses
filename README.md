@@ -23,3 +23,6 @@ https://anuta2310.github.io/scrimba-courses/my-site/
 ## JavaScript
 **Passenger Counter App**
 https://anuta2310.github.io/scrimba-courses/passenger-counter-app/
+
+**Basketball Scoreboard**
+https://anuta2310.github.io/scrimba-courses/basketball-scoreboard/
