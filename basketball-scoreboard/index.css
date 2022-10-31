@@ -1,8 +1,19 @@
 body {
-    margin: 0;
+    margin: 50px auto;
+    width: 575px;
+    box-sizing: border-box;
+    text-align: center;
 }
-
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .container {
     display: flex;
     justify-content: space-around;
+    background: #E5E5E5;
+    font-family: 'Cursed Timer';
 }
