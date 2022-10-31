@@ -64,8 +64,14 @@ button {
 #increment-btn {
     background: rgb(128, 0, 127, 0.9);
 }
+#increment-btn:active {
+    background: rgba(100, 1, 100, 0.9);
+}
 
 #save-btn {
     background: rgb(0, 128, 0, 0.9);
+}
+#save-btn:active {
+    background: rgb(0, 100, 0, 0.9);
 }
 
