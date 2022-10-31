@@ -8,19 +8,25 @@
 </head>
 <body>
     <div class="container">
-        <div>
-            <h3>HOME</h3>
-            <h1 id="home-points"></h1>
-            <button onclick="addHomePoints1()">+ 1</button>
-            <button onclick="addHomePoints2()">+ 2</button>
-            <button onclick="addHomePoints3()">+ 3</button>
+        <div class="board">
+            <h3 class="title">HOME</h3>
+
+            <p id="home-points"></p>
+            <div class="buttons">
+                <button onclick="addHomePoints1()">+1</button>
+                <button onclick="addHomePoints2()">+2</button>
+                <button onclick="addHomePoints3()">+3</button>
+            </div>
         </div>
-        <div>
-            <h3>GUEST</h3>
-            <h1 id="guest-points"></h1>
-            <button onclick="addGuestPoints1()">+ 1</button>
-            <button onclick="addGuestPoints2()">+ 2</button>
-            <button onclick="addGuestPoints3()">+ 3</button>
+        <div class="board">
+            <h3 class="title">GUEST</h3>
+
+            <p id="guest-points"></p>
+            <div class="buttons">
+                <button onclick="addGuestPoints1()">+1</button>
+                <button onclick="addGuestPoints2()">+2</button>
+                <button onclick="addGuestPoints3()">+3</button>
+            </div>
         </div>
     </div>
     <script src="index.js"></script>    
