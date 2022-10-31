@@ -2,24 +2,24 @@
 Projects created while studying on Scrimba
 
 ## HTML & CSS Course
-### Torshov Homepage
+**Torshov Homepage**
 https://anuta2310.github.io/scrimba-courses/hometown-homepage-torshov/
 
-### Birthday Gift Site
+**Birthday Gift Site**
 https://anuta2310.github.io/scrimba-courses/birthday-gift-site/
 
-### Business Card
+**Business Card**
 https://anuta2310.github.io/scrimba-courses/business-card/
 
-### Space Exploration site start-page
+**Space Exploration site start-page**
 https://anuta2310.github.io/scrimba-courses/space-exploration-site/
 
-### Google.com clone site
+**Google.com clone site**
 https://anuta2310.github.io/scrimba-courses/google-clone/
 
-### Introductory "my" site
+**Introductory "my" site**
 https://anuta2310.github.io/scrimba-courses/my-site/
 
 ## JavaScript
-### Passenger Counter App
+**Passenger Counter App**
 https://anuta2310.github.io/scrimba-courses/passenger-counter-app/
