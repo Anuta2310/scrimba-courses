@@ -45,10 +45,26 @@ p {
     color: #9AABD8;
     margin-bottom: 70px;
 }
-.btn:hover {
+button:hover {
     cursor: pointer;
+}
+.btn:hover {
+
     background: #0e1327;
 }
 .btn:active {
     background:rgb(59, 75, 148)
+}
+.new-game-btn {
+    background: #A2E3C4;
+    padding: 10px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #F0F7F4;
+    border-radius: 8px;
+}
+.new-game-btn:hover {
+    background: #8fc9ad;
+}
+.new-game-btn:active {
+    border: 1px solid #B3BFB8;
 }

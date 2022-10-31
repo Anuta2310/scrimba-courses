@@ -33,3 +33,10 @@ function addGuestPoints3() {
   guestPoints += 3
   guestPointsEl.textContent = guestPoints
 }
+// new game
+function newGame() {
+  homePoints = 0
+  homePointsEl.textContent = homePoints
+  guestPoints = 0
+  guestPointsEl.textContent = guestPoints
+}
