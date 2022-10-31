@@ -19,3 +19,7 @@ https://anuta2310.github.io/scrimba-courses/google-clone/
 
 ### Introductory "my" site
 https://anuta2310.github.io/scrimba-courses/my-site/
+
+## JavaScript
+### Passenger Counter App
+https://anuta2310.github.io/scrimba-courses/passenger-counter-app/
