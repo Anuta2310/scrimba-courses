@@ -1,7 +1,8 @@
 body {
     width: 575px;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
+    background:#9AABD8;
 }
 
 @font-face {
@@ -15,6 +16,7 @@ body {
     background: #1B244A;
     font-family: 'Cursed Timer';
     margin: 20px;
+    border-radius: 20px;
 }
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,7 +36,7 @@ p {
     border-radius: 5px;
 }
 
-button {
+.btn {
     width: 45px;
     height: 45px;
     border: 2px solid #9AABD8;
@@ -42,4 +44,11 @@ button {
     background: #1B244A;
     color: #9AABD8;
     margin-bottom: 70px;
+}
+.btn:hover {
+    cursor: pointer;
+    background: #0e1327;
+}
+.btn:active {
+    background:rgb(59, 75, 148)
 }
