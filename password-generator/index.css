@@ -1,3 +1,53 @@
+@font-face {
+  font-family: 'Karla';
+  src: url(fonts/Karla-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Inter';
+  src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
 body {
   margin: 0;
+  background: #1C1C1C;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  width: 550px;
+  height: 550px;
+  background: #1F2937;
+  margin: 64px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.upper {
+  margin: 52px;
+  border: 1px solid #2F3E53;
+}
+.pswds {
+  display: flex;
+  text-align: center;
+  border: 1px solid #2F3E53;
+  margin: 35px auto;
+}
+h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+}
+#pswd-one, #pswd-two {
+  background: #273549;
+  border-radius: 6px;
+  
 }
