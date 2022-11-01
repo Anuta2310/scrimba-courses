@@ -26,3 +26,6 @@ https://anuta2310.github.io/scrimba-courses/passenger-counter-app/
 
 **Basketball Scoreboard**
 https://anuta2310.github.io/scrimba-courses/basketball-scoreboard/
+
+**Blackjack Game**
+https://anuta2310.github.io/scrimba-courses/blackjack-game/
