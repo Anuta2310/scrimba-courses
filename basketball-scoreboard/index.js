@@ -40,3 +40,16 @@ function newGame() {
   guestPoints = 0
   guestPointsEl.textContent = guestPoints
 }
+// highlighting the winner
+
+function highlightWinner() {
+  if (homePoints > guestPoints) {
+    homePointsEl.style.color = "yellow"
+    guestPointsEl.style.color = "#F94F6D"
+  } else if (homePoints < guestPoints) {
+    homePointsEl.style.color = "#F94F6D"
+    guestPointsEl.style.color = "yellow"
+  } else 
+  {homePointsEl.style.color ="#F94F6D"
+  guestPointsEl.style.color = "#F94F6D"}
+}

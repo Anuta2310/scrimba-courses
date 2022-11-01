@@ -13,9 +13,9 @@
 
             <p id="home-points"></p>
             <div class="buttons">
-                <button class="btn" onclick="addHomePoints1()">+1</button>
-                <button class="btn" onclick="addHomePoints2()">+2</button>
-                <button class="btn" onclick="addHomePoints3()">+3</button>
+                <button class="btn" onclick="addHomePoints1(), highlightWinner()">+1</button>
+                <button class="btn" onclick="addHomePoints2(), highlightWinner()">+2</button>
+                <button class="btn" onclick="addHomePoints3(), highlightWinner()">+3</button>
             </div>
         </div>
         <div class="board">
@@ -23,13 +23,13 @@
 
             <p id="guest-points"></p>
             <div>
-                <button class="btn" onclick="addGuestPoints1()">+1</button>
-                <button class="btn" onclick="addGuestPoints2()">+2</button>
-                <button class="btn" onclick="addGuestPoints3()">+3</button>
+                <button class="btn" onclick="addGuestPoints1(), highlightWinner()">+1</button>
+                <button class="btn" onclick="addGuestPoints2(), highlightWinner()">+2</button>
+                <button class="btn" onclick="addGuestPoints3(), highlightWinner()">+3</button>
             </div>
         </div>
     </div> <!-- the end of the main container-->
-    <button class="new-game-btn" onclick="newGame()">New Game</button>
+    <button class="new-game-btn" onclick="newGame(), highlightWinner()">New Game</button>
     <script src="index.js"></script>    
 </body>
 </html>
