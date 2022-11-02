@@ -2,30 +2,23 @@
 Projects created while studying on Scrimba
 
 ## HTML & CSS Course
-**Torshov Homepage**
-https://anuta2310.github.io/scrimba-courses/hometown-homepage-torshov/
+[Torshov Homepage](https://anuta2310.github.io/scrimba-courses/hometown-homepage-torshov/)
 
-**Birthday Gift Site**
-https://anuta2310.github.io/scrimba-courses/birthday-gift-site/
+[Birthday Gift Site](https://anuta2310.github.io/scrimba-courses/birthday-gift-site/)
 
-**Business Card**
-https://anuta2310.github.io/scrimba-courses/business-card/
+[Business Card](https://anuta2310.github.io/scrimba-courses/business-card/)
 
-**Space Exploration site start-page**
-https://anuta2310.github.io/scrimba-courses/space-exploration-site/
+[Space Exploration site start-page](https://anuta2310.github.io/scrimba-courses/space-exploration-site/)
 
-**Google.com clone site**
-https://anuta2310.github.io/scrimba-courses/google-clone/
+[Google.com clone site](https://anuta2310.github.io/scrimba-courses/google-clone/)
 
-**Introductory "my" site**
-https://anuta2310.github.io/scrimba-courses/my-site/
+[Introductory "my" site](https://anuta2310.github.io/scrimba-courses/my-site/)
 
 ## JavaScript
-**Passenger Counter App**
-https://anuta2310.github.io/scrimba-courses/passenger-counter-app/
+[Passenger Counter App](https://anuta2310.github.io/scrimba-courses/passenger-counter-app/)
 
-**Basketball Scoreboard**
-https://anuta2310.github.io/scrimba-courses/basketball-scoreboard/
+[Basketball Scoreboard](https://anuta2310.github.io/scrimba-courses/basketball-scoreboard/)
 
-**Blackjack Game**
-https://anuta2310.github.io/scrimba-courses/blackjack-game/
+[Blackjack Game](https://anuta2310.github.io/scrimba-courses/blackjack-game/)
+
+[Password Generator](https://anuta2310.github.io/scrimba-courses/password-generator/) _Solo Project_
