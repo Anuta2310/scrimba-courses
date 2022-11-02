@@ -19,18 +19,19 @@ body {
   margin: 64px auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 .upper {
-  margin: 52px;
+  width: 80%;
   border: 1px solid #2F3E53;
 }
 .pswds {
+  width: 80%;
   display: flex;
-  text-align: center;
+  justify-content: space-between;
   border: 1px solid #2F3E53;
-  margin: 35px auto;
+  margin-top: 35px;
 }
 h1 {
   font-family: 'Karla', sans-serif;
@@ -46,8 +47,11 @@ button {
   font-weight: 500;
   font-size: 16px;
 }
-#pswd-one, #pswd-two {
+p {
   background: #273549;
   border-radius: 6px;
-  
+  width: 211px;
+  height: 39px;
+  text-align: center;
+  color: #55F991;
 }
