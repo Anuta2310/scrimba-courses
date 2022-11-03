@@ -11,8 +11,22 @@
         <div> <!--headline, subtitle and button-->
           <h1>Generate a <br> <span>random password</span></h1>
           <h4>Never use an insecure password again.</h4>
-          <label for="length-input"><p>Choose the password length <br> min 5, max 20 characters</p></label>
-          <input id="length-input" type="number" value="10" min="5" max="20">
+          <div class="customize-pswd">
+            <div class="customize-pswd-length">
+              <label for="length-input"><p>Choose the password length <br> min 5, max 20 characters</p></label>
+              <input id="length-input" type="number" value="10" min="5" max="20">
+            </div>
+            <div class="customize-toggle">
+              <label class="switch">
+                <input type="checkbox" id="toggle-number" checked>
+                <span class="slider round">Numbers</span>
+              </label>
+              <label class="switch">
+                <input type="checkbox" id="toggle-symbol" checked>
+                <span class="slider round">Symbols</span>
+              </label>
+            </div>
+          </div>
           <button id="generate-btn">Generate passwords</button>
         </div>
         <div class="pswds"> <!--generated passwords-->
