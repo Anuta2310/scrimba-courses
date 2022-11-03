@@ -15,3 +15,4 @@ The Frontend Developer Career Path
 + [Basketball Scoreboard](https://anuta2310.github.io/scrimba-courses/basketball-scoreboard/) _Solo Project_
 + [Blackjack Game](https://anuta2310.github.io/scrimba-courses/blackjack-game/)
 + [Password Generator](https://anuta2310.github.io/scrimba-courses/password-generator/) _Solo Project_
++ [Leads Tracker Chrome Extension](https://anuta2310.github.io/scrimba-courses/chrome-extension/)
