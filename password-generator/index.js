@@ -30,5 +30,28 @@ function getRandomPswd(){
   }
   return pswd
 }
+pswdOneEl.onclick = function() {
+  document.execCommand("copy")
+  alert("Password copied to clipboard")
+}
+pswdOneEl.addEventListener("copy", function(event) {
+  event.preventDefault();
+  if (event.clipboardData) {
+    event.clipboardData.setData("text/plain", pswdOneEl.textContent);
+    // console.log(event.clipboardData.getData("text"))
+  }
+})
+
+pswdTwoEl.onclick = function() {
+  document.execCommand("copy")
+  alert("Password copied to clipboard")
+}
+pswdTwoEl.addEventListener("copy", function(event) {
+  event.preventDefault();
+  if (event.clipboardData) {
+    event.clipboardData.setData("text/plain", pswdTwoEl.textContent);
+    // console.log(event.clipboardData.getData("text"))
+  }
+})
 
 
