@@ -76,6 +76,10 @@ button {
   margin-bottom: 35px;
   cursor: pointer;
 }
+button:hover {
+  background: hsl(160, 84%, 34%);
+}
+
 .pswds {
   display: flex;
   justify-content: space-between;
@@ -92,4 +96,9 @@ button {
   font-size: 16px;
   line-height: 40px;
   margin-top: 35px;
+}
+
+.pswds p:hover {
+  background: #2d3d53;
+  cursor: copy;
 }
