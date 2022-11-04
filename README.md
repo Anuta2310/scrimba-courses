@@ -16,3 +16,4 @@ The Frontend Developer Career Path
 + [Blackjack Game](https://anuta2310.github.io/scrimba-courses/blackjack-game/)
 + [Password Generator](https://anuta2310.github.io/scrimba-courses/password-generator/) _Solo Project_
 + [Leads Tracker Chrome Extension](https://github.com/Anuta2310/scrimba-courses/tree/main/chrome-extension)
++ [Unit Converter](https://github.com/Anuta2310/scrimba-courses/tree/main/unit-converter) _Solo Project_
