@@ -1,13 +1,88 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(fonts/Inter/);
+}
 body {
   margin: 0;
   text-align: center;
   background: #1C1C1C;
+  font-family: 'Inter', sans-serif;
+}
+.app {
+  width: 550px;
+  margin: 75px auto;
+}
+.input-section {
+  background: #6943FF;
+  border: 1px solid #6943FF;
+}
+.input-section h1 {
+  font-weight: 800;
+  font-size: 28px;
+  color: #FFFFFF;
+  letter-spacing: -0.03em;
+}
+.input-section input {
+  width: 200px;
+  box-sizing: border-box;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  height: 80px;
+  border: 2px solid #B295FF;
+  border-radius: 5px;
+  background: #6943FF;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 58px;
+  font-weight: 600;
+}
+.input-section input:focus {
+  width: 300px;
+  background: hsl(252, 100%, 65%);
+  outline: none;
+}
+.input-section button {
+  display: block;
+  margin: 25px auto;
+  width: 115px;
+  height: 40px;
+  background: #FFFFFF;
+  color: #3D3D3D;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-size: 16px;
+}
+.input-section button:hover {
+  border: 2px solid #B295FF;
 }
 
-div {
-  border: 1px solid red;
+.output-section {
+  background: #F4F4F4;
+  display: block;
+  margin: 0;
+  border: 1px solid #F4F4F4;
 }
-p {
-  display: inline;
-  border: 1px solid red;
+.output-section > div {
+  width: 500px;
+  margin: 24px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.output-section .mass-section {
+  margin-bottom: 24px;
+}
+.output-section h3 {
+  color: #5A537B;
+  font-size: 20px;
+  margin-bottom: 9px;
+  padding-top: 30px; 
+}
+.output-wrapper p {
+  display: block;
+  padding-bottom: 18px;
+  font-size: 14px;
+  color: #353535;
 }
