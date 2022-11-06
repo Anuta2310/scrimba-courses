@@ -32,14 +32,15 @@ a {
 a:hover, a:active {
   color: #d4b44c;
 }
-.btn-dark, .btn-mid, .btn-light {
+.btn {
   padding: 10px 19px;
   border-radius: 4.6px;
   text-decoration: none;
   font-weight: 500;
+  display: inline-block;
 }
-.btn-dark:hover, .btn-mid:hover, .btn-light:hover,
-.btn-dark:active, .btn-mid:active, .btn-light:active{
+.btn:hover,
+.btn:active{
   background: #f3e885;
   color: #2b283a;
 }
