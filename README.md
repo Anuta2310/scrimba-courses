@@ -17,3 +17,6 @@ The Frontend Developer Career Path
 + [Password Generator](https://anuta2310.github.io/scrimba-courses/password-generator/) _Solo Project_
 + [Leads Tracker Chrome Extension](https://github.com/Anuta2310/scrimba-courses/tree/main/chrome-extension)
 + [Unit Converter](https://anuta2310.github.io/scrimba-courses/unit-converter) _Solo Project_
+
+## Module 4. Essential CSS concepts
++ [NFT site](https://anuta2310.github.io/scrimba-courses/nft-site)
