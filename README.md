@@ -19,4 +19,4 @@ The Frontend Developer Career Path
 + [Unit Converter](https://anuta2310.github.io/scrimba-courses/unit-converter) _Solo Project_
 
 ## Module 4. Essential CSS concepts
-+ [NFT site] (https://anuta2310.github.io/scrimba-courses/nft-site)
++ [NFT site](https://anuta2310.github.io/scrimba-courses/nft-site)
