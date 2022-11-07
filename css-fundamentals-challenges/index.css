@@ -25,6 +25,7 @@ h1 span,
 h2 span {
   font-weight: 900;
   display: block;
+  color: #99D930;
 }
 h2 {
   font-size: 42px;
@@ -44,6 +45,7 @@ h3 {
 .small-text {
   font-size: 16px;
   margin-top: 5px;
+  color: #99D930;
 }
 p {
   margin-bottom: 0;
@@ -69,6 +71,11 @@ a:hover {
 .btn-link:focus {
   background: #252525;
   color: #fff;
+}
+article .btn-link:hover,
+article .btn-link:focus {
+  background: #fff;
+  color: #252525;
 }
 
 /* layout */
