@@ -1,3 +1,90 @@
 body {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0;
+}
+.container {
+  width: 570px;
+  margin: 0 auto;
+}
+
+/* typography */
+h1, h2 {
+  font-weight: 300;
+  margin-top: 0;
+}
+h1 {
+  font-size: 60px;
+}
+h1 span {
+  font-size: 80px;
+}
+h1 span,
+h2 span {
+  font-weight: 900;
+  display: block;
+}
+h2 {
+  font-size: 42px;
+  border-top: 1px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+h2 span {
+  font-size: 60px;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+.small-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
+p {
+  margin-bottom: 0;
+}
+
+/* links */
+a {
+  color: #99D930;
+  font-weight: 900;
+}
+a:hover {
+  color: #131313;
+}
+.btn-link {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background: #99D930;
+  color: #252525;
+  text-decoration: none;
+}
+.btn-link:hover,
+.btn-link:focus {
+  background: #252525;
+  color: #fff;
+}
+
+/* layout */
+section {
+  padding: 100px 0;
+}
+/* .part-one {
+  background: #D7D7D7;
+}
+.part-two {
+  background: #FFEAEA;
+}
+.part-three {
+  background: #EAF9FF;
+} */
+.dark-bckgrnd {
+  background: #252525;
+  color: #fff;
 }
