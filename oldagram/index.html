@@ -1,9 +1,37 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+        <title>Oldagram</title>
     </head>
     <body>
-        <img src="images/logo.png">
+        <header>
+            <div class="container header">
+                <img clas="logo" src="images/logo.png" alt="Oldagram logo" width="127px"> 
+                <img class="avatar" src="images/user-avatar.png" alt="Per's profile photo" width="34px">
+
+            </div>
+        </header>
+        <section class="post-content">
+            <div class="container">
+                <div class="user-info">
+                    <img class="avatar" src="images/avatar-vangogh.jpg" alt="Vincent van Gogh portrait" width="34px">
+                    <div>
+                        <p class="user-full-name">Vincent van Gogh</p>
+                        <p class="location">Zudert, Netherlands</p>
+                    </div>
+                </div>
+                <img class="post-image" src="images/post-vangogh.jpg" alt="Autoportrait of van Gogh" width="375px">
+                <div class="body">
+                    <img class="icon" src="images/icon-heart.png" alt="heart icon" width="23px">
+                    <img class="icon" src="images/icon-comment.png" alt="comment icon" width="23px">
+                    <img class="icon" src="images/icon-dm.png" alt="share icon" width="23px">
+                    <p class="likes">21,492 likes</p>
+                    <p class="caption"><span class="username">vincey1853</span> just took a few mushrooms lol</p>
+                </div>
+            </div>
+        </section>
         <script src="index.js"></script>
     </body>
 </html>
