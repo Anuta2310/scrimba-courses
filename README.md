@@ -20,3 +20,4 @@ The Frontend Developer Career Path
 
 ## Module 4. Essential CSS concepts
 + [NFT site](https://anuta2310.github.io/scrimba-courses/nft-site)
++ [CSS Fundamentals Challenges](https://anuta2310.github.io/scrimba-courses/css-fundamentals-challenges)
