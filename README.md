@@ -22,3 +22,4 @@ The Frontend Developer Career Path
 + [NFT site](https://anuta2310.github.io/scrimba-courses/nft-site)
 + [CSS Fundamentals Challenges](https://anuta2310.github.io/scrimba-courses/css-fundamentals-challenges)
 + [Oldagram](https://anuta2310.github.io/scrimba-courses/oldagram) _Solo Project_
++ [Coworking Space Site](https://anuta2310.github.io/scrimba-courses/coworking-space-site)
