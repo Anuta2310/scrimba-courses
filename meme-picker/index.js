@@ -6,7 +6,7 @@ function getEmotionsArray(cats){
   const catsEmotions = []
   for (let cat of cats){
     for (let emotion of cat.emotionTags){
-      catsEmotions.push(emotion)
+      if(!catsEmotions.includes(emotion)){catsEmotions.push(emotion)}
     }
   } return catsEmotions
 }
