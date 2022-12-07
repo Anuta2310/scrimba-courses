@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+}
+
+.text-container {
+    padding: 2.7rem;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h1.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    line-height: 120%;
+}
+
+p.description {
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+.input-container {
+    margin: 5rem 2.5rem;
+    width: 80%;
+}
+label {
+    font-size: 1.125rem;
+    color: #000000;
+    display: block;
+}
+input {
+    background: #EDEDED;
+    border: 1px solid #C7C7C7;
+    margin: 0.875rem auto 2.5rem;
+    width: 100%;
+    height: 4rem;
+}
+
+button {
+    width: 100%;
+    margin: 3.75rem 0; 
+    font-size: 1.125rem;
+    padding: 1.3rem;
+    background: #5200FF;
+    color:#FFFFFF;
+    border: 1px solid #5200FF;
+}
+
+@media only screen and (min-width: 550px) {
+    .input-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    button {
+        width: 11rem;
+    }
+}
+
+@media only screen and (min-width: 740px) {
+    body {
+        display: flex;
+    }
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
