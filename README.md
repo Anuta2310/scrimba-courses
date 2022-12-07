@@ -27,3 +27,6 @@ The Frontend Developer Career Path
 ## Module 5. Essential JavaScript concepts
 + [The World's Most Annoying Cookie Consent](https://anuta2310.github.io/scrimba-courses/cookie-consent)
 + [Pumpkin's Purrfect Meme Picker](https://anuta2310.github.io/scrimba-courses/meme-picker)
+
+# Figma to Code (Scrimba Course)
++ [Simple Card](https://anuta2310.github.io/scrimba-courses/simple-card)
