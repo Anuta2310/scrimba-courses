@@ -65,6 +65,11 @@ input {
     margin-bottom: 2.5rem;
 }
 
+input:focus {
+    background: #d9d9d9;
+    border: 1px solid #b3b3b3;
+}
+
 button {
     width: 100%;
     margin: 3.75rem 0; 
@@ -72,7 +77,15 @@ button {
     padding: 1em;
     background: #5200FF;
     color:#FFFFFF;
-    border: none;
+    border: 2px solid #5200FF;
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    background: #4a00e6;
+}
+button:focus {
+    border: 2px solid #32009a;
 }
 
 @media only screen and (min-width: 767px) {
