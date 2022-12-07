@@ -1,4 +1,4 @@
-# scrimba-courses 
+# Scrimba Courses
 Projects created while studying on Scrimba
 ## The Frontend Developer Career Path
 
@@ -28,5 +28,5 @@ Projects created while studying on Scrimba
 + [The World's Most Annoying Cookie Consent](https://anuta2310.github.io/scrimba-courses/cookie-consent)
 + [Pumpkin's Purrfect Meme Picker](https://anuta2310.github.io/scrimba-courses/meme-picker)
 
-## Figma to Code (Scrimba Course)
+## Figma to Code
 + [Simple Card](https://anuta2310.github.io/scrimba-courses/simple-card)
