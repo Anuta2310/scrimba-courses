@@ -1,22 +1,38 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 body {
+    margin: 0;
     background: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     width: 100vw;
 }
 
 .text-container {
+    background: #5200FF;
     padding: 2.7rem;
-    background-image: url("bg.jpg");
-    background-size: cover;
     text-align: center;
     color: #FFFFFF;
+    position: relative;
 }
 
+.text-container:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: 100%;
+    opacity: .22;
+}
+
+.content {
+    position: relative;
+}
+
+.text-container, .input-container {
+    padding: 6.375rem 8vw;
+}
 h1.title {
     font-family: 'Bebas Neue', cursive;
     font-size: 4rem;
@@ -28,10 +44,6 @@ p.description {
     line-height: 150%;
 }
 
-.input-container {
-    margin: 5rem 2.5rem;
-    width: 80%;
-}
 label {
     font-size: 1.125rem;
     color: #000000;
@@ -56,7 +68,7 @@ button {
 }
 
 @media only screen and (min-width: 550px) {
-    .input-container {
+    .form {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -70,7 +82,7 @@ button {
     body {
         display: flex;
     }
-    .input-container {
+    .form {
         display: flex;
         flex-direction: column;
     }
