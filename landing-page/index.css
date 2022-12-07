@@ -75,23 +75,24 @@ button {
     border: none;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 767px) {
     .form {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 2.2em;
     }
     button {
-        width: 11rem;
+        width: auto;
+        padding: 1em 2.5em;
     }
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 1024px) {
     body {
         display: flex;
     }
-    .form {
-        display: flex;
-        flex-direction: column;
+    .text-container, .input-container {
+        flex-basis: 0;
+        flex-grow: 1;
     }
 }
