@@ -14,7 +14,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 .container {
-    margin: 1.6em;
+    margin: 2.6em;
 }
 
 /* Typography */
@@ -31,6 +31,12 @@ h1 {
     display: none;
 }
 
+/* Search bar and Menu */
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.25rem;
+}
 .search {
     border: none;
     padding: 0.5em;
@@ -40,4 +46,39 @@ h1 {
 }
 .search:focus {
     outline: thin solid var(--text-color);
+}
+.menu {
+    margin: 0 .5em;
+}
+
+.far, .fas, .menu {
+    cursor: pointer;
+}
+
+/* Main Section */
+.cars, .labels {
+    margin: -1em -1em 2em;
+    padding: 1em;
+    border-radius: 6px;
+}
+.cars:hover {
+    background: #FFFFFF;
+}
+.car-name {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.375rem;
+}
+.car-location {
+    color: var(--text-color);
+    font-size: 1.125rem;
+}
+.cols-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.car-price {
+    font-size: 1.5rem;
+    margin: 0;
 }
