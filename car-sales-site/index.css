@@ -1,4 +1,43 @@
-html, body {
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #565656;
+    --primary-color: #008AD8;
+
+}
+
+body {
     margin: 0;
-    padding: 0;
+    background: #F4F4F4;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.container {
+    margin: 1.6em;
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.headings p {
+    font-size: 1.125rem;
+    color: var(--text-color);
+}
+
+.filter, .labels {
+    display: none;
+}
+
+.search {
+    border: none;
+    padding: 0.5em;
+    border-radius: 2.25em;
+    background: #FFFFFF url('assets/search.svg') no-repeat right .5em center;
+    width: 100%;
+}
+.search:focus {
+    outline: thin solid var(--text-color);
 }
