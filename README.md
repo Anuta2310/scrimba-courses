@@ -33,3 +33,4 @@ Projects created while studying on Scrimba
 + [Simple Landing Page](https://anuta2310.github.io/scrimba-courses/landing-page)
 + [Dashboard](https://anuta2310.github.io/scrimba-courses/dashboard)
 + [Car Sales Site](https://anuta2310.github.io/scrimba-courses/car-sales-site)
++ [Drone Page](https://anuta2310.github.io/scrimba-courses/drone-page)
