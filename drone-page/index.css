@@ -27,6 +27,38 @@ body {
 .cols-2, .quote-section, .mid-section, .thumbnails {
     margin-left: 3.75rem;
 }
+
+/* Navigation Menu */
+.nav-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background: #363B4E;
+    height: 100vh;
+    width: 70vw;
+    display: flex; /*on Menu click changes to 'flex' */
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2.5rem;
+    visibility: hidden;
+}
+.nav-panel a {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    line-height: 141.6%;
+    text-decoration: none;
+    margin: .5em 0;
+}
+.nav-panel a:hover {
+    text-decoration: underline;
+}
+.close-btn {
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+
 /* Top Section */
 .cols-2 {
     display: grid;
@@ -74,6 +106,7 @@ body {
 .menu {
     background: #7988BE;
     padding: 0.7em;
+    position: relative;
 }
 .menu-btn {
     cursor: pointer;
@@ -112,6 +145,7 @@ h2 {
 .mid-section p {
     font-size: 1.125rem;
     line-height: 141.6%;
+    padding-right: 1.5em;
 }
 
 /* Thumbnails Section */
@@ -144,4 +178,53 @@ h2 {
 .img-5 {
     grid-area: 3 / 2 / 4 / 3; 
     background: url('assets/footage-1.jpg');
+}
+
+/* Registration Section */
+.reg-section {
+    background: #B2DD9E;
+    margin-top: 2.4rem;
+    position: relative;
+}
+.reg-title {
+    display: inline-block;
+    background: #9FC88C;
+    margin: 0;
+    padding: 0.8em 0.7em 0.6em 4.8em;
+    position: absolute;
+    left: -3.1em;
+}
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    padding: 7.8rem 2.625rem 3.8rem 3.9rem;
+    font-family: 'Bebas Neue', cursive;
+}
+.reg-form label {
+    font-size: 1.5rem;
+    margin-bottom: .75em;
+}
+.reg-form input {
+    margin-bottom: 1.875rem;
+    outline: none;
+    border: none;
+    padding: 1em;
+}
+.reg-form button {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 2.2rem;
+    padding: 0.5em 1.8em;
+    margin-top: 1.6em;
+}
+
+footer.contact {
+    padding: 3em 3.5em;
+    font-size: 1.125rem;
+    display: grid;
+    grid-template-columns: 70%;
+}
+footer.contact p {
+    padding: 1em 1em 0.7em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
