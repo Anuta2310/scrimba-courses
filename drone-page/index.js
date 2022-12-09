@@ -1,10 +1,10 @@
 const menuBtn = document.querySelector('.menu-btn')
-      closeBtn = document.querySelector('.close-btn')
-      navPanel = document.querySelector('.nav-panel');
+      exitBtn = document.querySelector('.exit-btn')
+      menu = document.querySelector('nav ul');
 
 menuBtn.addEventListener('click', () => {
-  navPanel.style.visibility = 'visible'
+  menu.style.transform = 'translateX(0)'
 })
-closeBtn.addEventListener('click', () => {
-  navPanel.style.visibility = 'hidden'
+exitBtn.addEventListener('click', () => {
+  menu.style.transform = 'translateX(100%)'
 })
