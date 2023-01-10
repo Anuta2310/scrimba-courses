@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Smythe', cursive;
+}
+header {
+    background-image: url('images/bg-img.png');
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p {
+    font-size: 1.4rem;
+}
+.header-wrapper {
+    padding: 2em;
+}
