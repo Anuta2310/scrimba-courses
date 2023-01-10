@@ -27,6 +27,7 @@ Projects created while studying on Scrimba
 ### Module 5. Essential JavaScript concepts
 + [The World's Most Annoying Cookie Consent](https://anuta2310.github.io/scrimba-courses/cookie-consent)
 + [Pumpkin's Purrfect Meme Picker](https://anuta2310.github.io/scrimba-courses/meme-picker)
++ [Twimba: Twitter Clone](https://anuta2310.github.io/scrimba-courses/twimba-twitter-clone)
 
 ## Figma to Code
 + [Simple Card](https://anuta2310.github.io/scrimba-courses/simple-card)
