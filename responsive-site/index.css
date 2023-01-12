@@ -125,7 +125,9 @@ footer {
     color: #5f29a3;
 }
 
-@media only screen and (min-width: 480px){
+/* ----- MEDIA QUERIES ----- */
+
+@media (min-width: 480px){
     .section-two-image-container {
         display: flex;
         justify-content: space-between;
