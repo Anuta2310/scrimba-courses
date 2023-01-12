@@ -29,6 +29,9 @@ Projects created while studying on Scrimba
 + [Pumpkin's Purrfect Meme Picker](https://anuta2310.github.io/scrimba-courses/meme-picker)
 + [Twimba: Twitter Clone](https://anuta2310.github.io/scrimba-courses/twimba-twitter-clone)
 
+### Module 6. Responsive Design
++ [Responsive Site](https://anuta2310.github.io/scrimba-courses/responsive-site)
+
 ## Figma to Code
 + [Simple Card](https://anuta2310.github.io/scrimba-courses/simple-card)
 + [Simple Landing Page](https://anuta2310.github.io/scrimba-courses/landing-page)
