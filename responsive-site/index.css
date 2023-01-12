@@ -125,7 +125,36 @@ footer {
     color: #5f29a3;
 }
 
+/* ----- NAVIGATION ----- */
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.125rem;
+    display: block;
+    padding: 1em 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
 /* ----- MEDIA QUERIES ----- */
+
+@media only screen and (max-width: 767px) {
+    li:not(:last-child){
+        border-bottom: 1px dotted #a190b6;
+    }
+    
+    header {
+        text-align: center;
+    }
+    nav {
+        margin-top: 1em;
+    }
+}
 
 @media only screen and (min-width: 768px){
     .section-two-image-container {
@@ -157,3 +186,4 @@ footer {
         font-size: 1.125rem;
     }
 }
+
