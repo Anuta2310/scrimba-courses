@@ -185,5 +185,13 @@ ul {
     p {
         font-size: 1.125rem;
     }
+    nav ul, header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav li {
+        margin-left: 1.25em; 
+    }
 }
 
