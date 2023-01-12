@@ -53,13 +53,13 @@ a:active {
 }
 
 .btn {
+    display: block;
+    text-align: center;
     font-size: 1.125rem;
     font-weight: 500;
     text-decoration: none;
-    display: inline-block;
     padding: 0.5em 1em;
     border-radius: 4.6px;
-    margin-right: 0.5em;
     margin-bottom: 1em;
 }
 
@@ -142,5 +142,9 @@ footer {
     section, 
     footer {
         padding: 2.875em 0;
+    }
+    .btn {
+        display: inline-block;
+        margin-right: .5em;
     }
 }
