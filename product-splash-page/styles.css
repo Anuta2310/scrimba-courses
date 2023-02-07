@@ -21,13 +21,19 @@ h1 {
     font-weight: 900;
 }
 
+/* Flex containers */
+
+.intro,
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Intro */
 
 .intro { 
     color: #fff;
     background-color: #9480e4;
-    display: flex;
-    flex-direction: column;
     min-height: 250px;
     text-align: center;
     justify-content: center;
@@ -37,8 +43,6 @@ h1 {
 /* Main content */
 
 .main-content {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 2.5em 2em;
 }
