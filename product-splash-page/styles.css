@@ -28,6 +28,11 @@ p {
     text-transform: uppercase;
     font-weight: 900;
 }
+.fine-print {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #858585;
+}
 
 /* Flex containers */
 
@@ -60,7 +65,39 @@ p {
 }
 
 /* Form */
-   
+
+input, 
+.btn {
+    font-family: inherit;
+    width: 100%;
+    border-radius: 5px;
+}
+input {
+    margin-bottom: 0.75em;
+    border: 2px solid #d1d5db;
+    padding: 0.5em;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #8a71ec;
+    background-color: #e6e8ec;
+}
+.btn {
+    margin-top: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    background-color: #8a71ec;
+    border: none;
+    font-weight: 900;
+    padding: 1em 0;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #b7a7f6;
+    outline: none;  
+}
 
 /* Media queries */
 
