@@ -24,9 +24,17 @@ p {
     margin-bottom: 0.5em;
 }
 .beta-text,
-.subheading {
+.subheading,
+.top-text {
     text-transform: uppercase;
     font-weight: 900;
+}
+.top-text {
+    font-size: 0.875rem;
+    padding-top: 0.25em;
+    margin: 0 auto;
+    border-top: 5px solid;
+    order: -1;
 }
 .fine-print {
     font-size: 0.75rem;
@@ -51,7 +59,8 @@ p {
     background-size: cover;
     min-height: 250px;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 1.5em;
 }
 
 /* Main content */
@@ -83,18 +92,20 @@ input:focus {
     background-color: #e6e8ec;
 }
 .btn {
-    margin-top: 1em;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: whitesmoke;
-    background-color: #8a71ec;
     border: none;
     font-weight: 900;
     padding: 1em 0;
     cursor: pointer;
 }
-.btn:hover,
-.btn:focus {
+.btn-primary {
+    margin-top: 1em;
+    color: whitesmoke;
+    background-color: #8a71ec;
+}
+.btn-primary:hover,
+.btn-primary:focus {
     background-color: #b7a7f6;
     outline: none;  
 }
@@ -109,8 +120,10 @@ input:focus {
     .main-content {
         flex: 1;
         min-height: 100vh;
-        justify-content: center;
         padding-top: 0;
+    }
+    .main-content {
+        justify-content: center;
     }
     h1 {
         font-size: 5vw;
