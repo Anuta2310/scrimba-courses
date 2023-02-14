@@ -31,6 +31,7 @@ Projects created while studying on Scrimba
 
 ### Module 6. Responsive Design
 + [Responsive Site](https://anuta2310.github.io/scrimba-courses/responsive-site)
++ [Product Splash Page](https://anuta2310.github.io/scrimba-courses/product-splash-page)
 
 ## Figma to Code
 + [Simple Card](https://anuta2310.github.io/scrimba-courses/simple-card)
