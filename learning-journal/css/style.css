@@ -17,6 +17,10 @@ header {
     background-color: #fff;
     padding: 1.4em;
 }
+.logo-img {
+    width: 24px;
+    margin-right: .5em;
+}
 .logo-wrapper,
 .menu {
     display: flex;
@@ -42,6 +46,32 @@ header {
     color: #0E0E0E;
     font-size: .85rem;
     font-weight: 700;
-    margin-left: .2em;
 }
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: -0.03em;
+}
+.date {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+.hero-text {
+    
+}
+/* Hero Post */
 
+.hero-post {
+    color: #FFFFFF;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1em;
+}
+.hero-post-wrapper {
+    background: url('/images/blog-image-hero.png');
+    background-size: cover;
+    background-position: 50% 75%;
+    opacity: 0.8;
+}
