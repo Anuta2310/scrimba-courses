@@ -1,0 +1,47 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding: 1.4em;
+}
+.logo-wrapper,
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.menu {
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: #090909;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .75rem;
+    margin-left: 2em;
+}
+
+/* Typography */
+
+.logo-text {
+    font-family: 'Roboto', sans-serif;
+    color: #0E0E0E;
+    font-size: .85rem;
+    font-weight: 700;
+    margin-left: .2em;
+}
+
