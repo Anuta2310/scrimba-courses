@@ -83,7 +83,7 @@ p.blog-item-text {
     padding: 1em;
 }
 .hero-post-wrapper {
-    background: url('/images/blog-image-hero.png');
+    background: url('images/article-image-hero.jpg');
     background-size: cover;
     background-position: 50% 75%;
     opacity: 0.8;
