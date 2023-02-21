@@ -9,11 +9,12 @@ body {
 
 /* Header */
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 1;
     background-color: #fff;
     padding: 1.4em;
 }
@@ -38,27 +39,39 @@ header {
     font-size: .75rem;
     margin-left: 2em;
 }
+.menu a:hover,
+.menu a:active {
+    text-decoration: underline;
+}
 
 /* Typography */
 
-.logo-text {
+p.logo-text {
     font-family: 'Roboto', sans-serif;
     color: #0E0E0E;
     font-size: .85rem;
     font-weight: 700;
 }
-h1 {
+h1.hero-post-title {
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: -0.03em;
 }
-.date {
+h2.blog-item-title {
+    font-size: 1.5rem;
+    line-height: 1.082;
+    margin: .375em 0;
+}
+p.date {
     text-transform: uppercase;
     font-size: 0.75rem;
 }
-.hero-text {
-    
+p.hero-text,
+p.blog-item-text {
+    font-size: 1rem;
+    line-height: 1.25;
 }
+
 /* Hero Post */
 
 .hero-post {
@@ -74,4 +87,52 @@ h1 {
     background-size: cover;
     background-position: 50% 75%;
     opacity: 0.8;
+}
+
+/* Blog List Section */
+
+.blog-list {
+    padding: 2.125em 1.25em 1.69em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+    gap: 2.56em 1.625em;
+}
+.blog-item-img {
+    width: 100%;
+    max-height: 230px;
+    border-radius: 3px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: .875em;
+}
+a.view-more-btn {
+    display: block;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 2.69em;
+}
+a.view-more-btn:hover,
+a.view-more-btn:active {
+    color: #717171;
+}
+
+/* Footer */
+
+.footer {
+    background: #202020;
+    padding: 2.3em 0;
+    text-align: center;
+}
+p.footer-title {
+    color: #ECECEC;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+}
+.footer-copyright {
+    color: #D7D7D7;
+    font-size: .75rem;
+    line-height: 1.25;
 }
