@@ -134,3 +134,39 @@ p.footer-title {
     font-size: .75rem;
     line-height: 1.25;
 }
+
+@media screen and (min-width: 768px)  {
+    :root {
+        font-size: 18px;
+    }
+    .header {
+        padding: 1.4em 2em;
+    }
+    .hero-post {
+        padding: 3em;
+        min-height: 400px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .menu a {
+        font-size: .9rem;
+    }
+    p.logo-text {
+        font-size: 1.1rem;
+    }
+    .hero-post {
+        min-height: 485px;
+    }
+    p.date {
+        font-size: .9rem;
+    }
+    h1.hero-post-title {
+        font-size: 2.3rem;
+    }
+    p.hero-text {
+        max-width: 615px;
+    }
+    .blog-list {
+        padding: 2em;
+    }
+}
