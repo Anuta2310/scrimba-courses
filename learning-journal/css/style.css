@@ -9,7 +9,7 @@ body {
 
 /* Header */
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -52,12 +52,12 @@ p.logo-text {
     font-size: .85rem;
     font-weight: 700;
 }
-h1.hero-post-title {
+h1 {
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: -0.03em;
 }
-h2.blog-item-title {
+h2 {
     font-size: 1.5rem;
     line-height: 1.082;
     margin: .375em 0;
@@ -66,10 +66,32 @@ p.date {
     text-transform: uppercase;
     font-size: 0.75rem;
 }
-p.hero-text,
-p.blog-item-text {
+p {
     font-size: 1rem;
     line-height: 1.25;
+}
+
+/* Links */
+
+h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+h1 a:hover,
+h1 a:focus,
+h1 a:active {
+    text-decoration: underline;
+}
+a.view-more-btn {
+    display: block;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 2.69em;
+}
+a.view-more-btn:hover,
+a.view-more-btn:active {
+    color: #717171;
 }
 
 /* Hero Post */
@@ -95,7 +117,7 @@ p.blog-item-text {
     grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
     gap: 2.56em 1.625em;
 }
-.blog-item-img {
+.blog-list img {
     width: 100%;
     max-height: 230px;
     border-radius: 3px;
@@ -103,21 +125,10 @@ p.blog-item-text {
     object-position: center;
     margin-bottom: .875em;
 }
-a.view-more-btn {
-    display: block;
-    font-weight: 700;
-    color: #000000;
-    text-align: center;
-    margin-bottom: 2.69em;
-}
-a.view-more-btn:hover,
-a.view-more-btn:active {
-    color: #717171;
-}
 
 /* Footer */
 
-.footer {
+footer {
     background: #202020;
     padding: 2.3em 0;
     text-align: center;
@@ -135,11 +146,22 @@ p.footer-title {
     line-height: 1.25;
 }
 
+/* Main Article - post.html */
+
+.main-article {
+    padding: 2em 1.25em;
+}
+h1.article-title {
+    color: #151515;
+    margin: .5em 0;
+}
+/* Media Queries */
+
 @media screen and (min-width: 768px)  {
     :root {
         font-size: 18px;
     }
-    .header {
+    header {
         padding: 1.4em 2em;
     }
     .hero-post {
@@ -160,7 +182,7 @@ p.footer-title {
     p.date {
         font-size: .9rem;
     }
-    h1.hero-post-title {
+    h1 {
         font-size: 2.3rem;
     }
     p.hero-text {
