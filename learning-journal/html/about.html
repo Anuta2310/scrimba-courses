@@ -9,42 +9,62 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
-      <header class="header">
-        <div class="logo-wrapper">
-            <img src="../images/logo.png" alt="logo" class="logo-img">
-            <a href="../index.html" class="logo-text">My learning journal</a>
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About me</a></li>
-            </ul>
-        </nav>
-      </header>
-      <main>
-
-        <section class="blog-list">
-          <div class="blog-item">
-              <img src="../images/blog-image-01.png" class="blog-item-img">
-              <p class="date">JULY 23, 2022</p>
-              <h2 class="blog-item-title">Blog one</h2>
-              <p class="blog-item-text">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+      <div class="container">
+        <header class="header">
+          <div class="logo-wrapper">
+              <img src="../images/logo.png" alt="logo" class="logo-img">
+              <a href="../index.html" class="logo-text">My learning journal</a>
           </div>
-          <div class="blog-item">
-              <img src="../images/blog-image-02.png"  class="blog-item-img">
-              <p class="date">JULY 23, 2022</p>
-              <h2 class="blog-item-title">Blog two</h2>
-              <p class="blog-item-text">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+          <nav>
+              <ul class="menu">
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="about.html">About me</a></li>
+              </ul>
+          </nav>
+        </header>
+        <main>
+          <article class="about-hero">
+            <div class="about-hero-main">
+              <img src="../images/avatar.png" alt="Profile Picture">
+              <div class="about-hero-text">
+                <h1>Hi there! My name is Roku and welcome to my learning journal.</h1>
+                <p>Hi there! My name is Roku and welcome to my learning journal.</p>
+              </div>
+            </div>
+            <div class="about-hero-maintext">
+              <h3>How I stay committed to learning</h3><br>
+              <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p><br>
+              <p>While that was fun, I felt like it would be helpful to share what I was learning and most things about my journey with the world.</p><br>
+              <h3>How I got started</h3><br>
+              <p>I started simple and gradually grew my learning journal site. I would take notes about what I was learning. After each learning session, I'd use my notes to not only reflect on what I learned but also write short summaries of what I learned using my own words.</p><br>
+              <p>That helped me grok what I was learning, and I realized that posting my learning summaries was also helping others learn and stay motivated.</p>
+            </div>
+          </article>
+          <div class="recent-posts">
+            <p>Recent posts</p>
+            <section class="blog-list">
+              <div>
+                  <img src="../images/blog-image-01.png">
+                  <p class="date">JULY 23, 2022</p>
+                  <h2>Blog one</h2>
+                  <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+              </div>
+              <div>
+                  <img src="../images/blog-image-02.png">
+                  <p class="date">JULY 23, 2022</p>
+                  <h2>Blog two</h2>
+                  <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+              </div>
+              <div>
+                  <img src="../images/blog-image-03.png">
+                  <p class="date">JULY 23, 2022</p>
+                  <h2>Blog three</h2>
+                  <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+              </div>
+            </section>
           </div>
-          <div class="blog-item">
-              <img src="../images/blog-image-03.png"  class="blog-item-img">
-              <p class="date">JULY 23, 2022</p>
-              <h2 class="blog-item-title">Blog three</h2>
-              <p class="blog-item-text">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
-          </div>
-        </section>
-        <a href="#" class="view-more-btn">View More</a>
-      </main>
+        </main>
+      </div>
       <footer class="footer">
         <p class="footer-title">My Learning Journal</p>
         <p class="footer-copyright">Copyright ©2022</p>
