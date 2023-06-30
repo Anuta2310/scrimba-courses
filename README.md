@@ -34,6 +34,9 @@ Projects created while studying on Scrimba
 + [Product Splash Page](https://anuta2310.github.io/scrimba-courses/product-splash-page)
 + [Learning Journal](https://anuta2310.github.io/scrimba-courses/learning-journal) _Solo Project_
 
+### Module 7. Next-level JavaScript
++ [A Role-Playing Game](https://anuta2310.github.io/scrimba-courses/role-game)
+
 ## Figma to Code
 + [Simple Card](https://anuta2310.github.io/scrimba-courses/simple-card)
 + [Simple Landing Page](https://anuta2310.github.io/scrimba-courses/landing-page)
