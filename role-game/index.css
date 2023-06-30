@@ -111,16 +111,18 @@ main {
 
 .dice-container {
     width: 100%;
+    height: 5rem;
     background: #000721;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .dice, .placeholder-dice{
-    width: 4rem;
+    width: 3rem;
+    height: 3rem;
     padding: .5rem;
     background: #fff;   
     border-radius: 5px;
