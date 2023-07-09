@@ -36,6 +36,7 @@ Projects created while studying on Scrimba
 
 ### Module 7. Next-level JavaScript
 + [A Role-Playing Game](https://anuta2310.github.io/scrimba-courses/role-game)
++ [Tindog](https://anuta2310.github.io/scrimba-courses/tindog) _Solo Project_
 
 ## Figma to Code
 + [Simple Card](https://anuta2310.github.io/scrimba-courses/simple-card)
