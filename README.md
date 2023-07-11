@@ -38,6 +38,8 @@ Projects created while studying on Scrimba
 + [A Role-Playing Game](https://anuta2310.github.io/scrimba-courses/role-game)
 + [Tindog](https://anuta2310.github.io/scrimba-courses/tindog) _Solo Project_
 
+### Module 8. Working with APIs
+
 ## Figma to Code
 + [Simple Card](https://anuta2310.github.io/scrimba-courses/simple-card)
 + [Simple Landing Page](https://anuta2310.github.io/scrimba-courses/landing-page)
