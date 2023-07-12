@@ -7,7 +7,7 @@
 body {
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #f0f8ff;
     color: #000;
     display: flex;
@@ -107,4 +107,12 @@ button:hover {
 
 #activity.show {
     opacity: 1;
+}
+
+@media (max-width: 415px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
 }
