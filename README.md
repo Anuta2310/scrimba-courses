@@ -39,6 +39,7 @@ Projects created while studying on Scrimba
 + [Tindog](https://anuta2310.github.io/scrimba-courses/tindog) _Solo Project_
 
 ### Module 8. Working with APIs
++ [BoredBot](https://anuta2310.github.io/scrimba-courses/boredbot)
 
 ## Figma to Code
 + [Simple Card](https://anuta2310.github.io/scrimba-courses/simple-card)
