@@ -8,7 +8,7 @@ body {
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
     min-height: 100vh;
-    background-color: #fff;
+    background-color: #f0f8ff;
     color: #000;
     display: flex;
     align-items: center;
@@ -26,6 +26,10 @@ p {
     color: #8076a3;
 }
 
+span {
+    font-size: 32px;
+}
+
 button {
     background-color: #f95d9b;
     color: #fff;
@@ -37,15 +41,29 @@ button {
     margin-top: 20px;
     cursor: pointer;
     letter-spacing: .1em;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 button:hover {
     background-color: #ffde22;
     color: #000;
+    animation: none;
 }
 
 .container {
-    background-color: #f0f8ff;
+    background-color: lightblue;
     width: 400px;
     padding: 30px 20px;
     border-radius: 10px;
@@ -83,4 +101,10 @@ button:hover {
     border-radius: 5px;
     border: 1px solid rgba(128, 118, 163, .3);
     text-align: center;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+#activity.show {
+    opacity: 1;
 }
