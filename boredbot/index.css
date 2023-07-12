@@ -1,0 +1,76 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    min-height: 100vh;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+h1 {
+    color: #ffde22;
+    margin-bottom: 20px;
+    text-shadow: 0 0 3px #8076a3;
+    letter-spacing: .1em;
+}
+
+p {
+    color: #8076a3;
+}
+
+button {
+    background-color: #f95d9b;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+    letter-spacing: .1em;
+}
+
+button:hover {
+    background-color: #ffde22;
+    color: #000;
+}
+
+.container {
+    background-color: #f0f8ff;
+    max-width: 400px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 20px rgba(128, 118, 163, .6);
+}
+
+.wheel {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    background: linear-gradient(#f95d9b, #ffde22);
+    box-shadow: 0 0 2px #8076a3;
+    border-radius: 50%;
+    animation: spin 3s infinite linear;
+}
+  
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
