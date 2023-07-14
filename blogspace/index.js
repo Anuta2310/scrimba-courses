@@ -24,3 +24,27 @@ function insertHtml(html) {
 fetchPosts()
     .then(posts => generateHtml(posts))
     .then(html => insertHtml(html));
+
+function handleSubmit(event) {
+    event.preventDefault();
+    
+    const titleInput = document.getElementById('postTitle');
+    const bodyInput = document.getElementById('postBody');
+
+    const postTitle = titleInput.value;
+    const postBody = bodyInput.value;
+
+    const postObject = {
+        title: postTitle,
+        body: postBody
+    };
+
+    console.log(postObject);
+
+
+    titleInput.value = '';
+    bodyInput.value = '';
+}
+
+const postForm = document.getElementById('postForm');
+postForm.addEventListener('submit', handleSubmit);
