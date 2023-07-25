@@ -1,6 +1,9 @@
 let postsArray = [];
+const titleInput = document.getElementById('postTitle');
+const bodyInput = document.getElementById('postBody');
+const postForm = document.getElementById('postForm');
 
-document.getElementById('postForm').addEventListener('submit', handleSubmit);
+postForm.addEventListener('submit', handleSubmit);
 
 function renderPosts() {
     let html = '';
@@ -34,23 +37,18 @@ function postData(data) {
         .then(data => {
             postsArray.unshift(data);
             renderPosts();
+            postForm.reset();
         });
 }
 
 function handleSubmit(event) {
     event.preventDefault();
     
-    const titleInput = document.getElementById('postTitle');
-    const bodyInput = document.getElementById('postBody');
-
     const data = {
         title: titleInput.value,
         body: bodyInput.value
     };
 
     postData(data);
-
-    titleInput.value = '';
-    bodyInput.value = '';
 }
 
