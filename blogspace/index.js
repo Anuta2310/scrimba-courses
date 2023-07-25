@@ -1,29 +1,41 @@
-function fetchPosts() {
-    return fetch('https://apis.scrimba.com/jsonplaceholder/posts')
-        .then(res => res.json())
-        .then(data => data.slice(0, 10));
-}
+let postsArray = [];
 
-function generateHtml(posts) {
+document.getElementById('postForm').addEventListener('submit', handleSubmit);
+
+function renderPosts() {
     let html = '';
-    posts.forEach(post => {
+    postsArray.forEach(post => {
         html += `
             <div class="blog-post">
                 <h2>${post.title}</h2>
                 <p>${post.body}</p>
             </div>`;
     });
-    return html;
+    document.getElementById('bloglist').innerHTML = html;
 }
 
-function insertHtml(html) {
-    const bloglistEl = document.getElementById('bloglist');
-    bloglistEl.innerHTML = html;
-}
+fetch('https://apis.scrimba.com/jsonplaceholder/posts')
+    .then(res => res.json())
+    .then(data => {
+        postsArray = data.slice(0, 10);
+        renderPosts();
+    });
 
-fetchPosts()
-    .then(posts => generateHtml(posts))
-    .then(html => insertHtml(html));
+
+function postData(data) {
+    fetch('https://apis.scrimba.com/jsonplaceholder/posts', {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+    })
+        .then(res => res.json())
+        .then(data => {
+            postsArray.unshift(data);
+            renderPosts();
+        });
+}
 
 function handleSubmit(event) {
     event.preventDefault();
@@ -31,20 +43,14 @@ function handleSubmit(event) {
     const titleInput = document.getElementById('postTitle');
     const bodyInput = document.getElementById('postBody');
 
-    const postTitle = titleInput.value;
-    const postBody = bodyInput.value;
-
-    const postObject = {
-        title: postTitle,
-        body: postBody
+    const data = {
+        title: titleInput.value,
+        body: bodyInput.value
     };
 
-    console.log(postObject);
-
+    postData(data);
 
     titleInput.value = '';
     bodyInput.value = '';
 }
 
-const postForm = document.getElementById('postForm');
-postForm.addEventListener('submit', handleSubmit);
